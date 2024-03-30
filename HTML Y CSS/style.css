@@ -1,0 +1,261 @@
+.SobreMi {
+    font-size: 70px;
+    padding-top: 20px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    padding-left: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Info {
+    border-top: 2px solid #ccc;
+    line-height: 1;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fotothomee {
+    width: 200px;
+    border-radius: 50%;
+    border-color: #000000;
+
+}
+.presentacion {
+    background-color: #cacaca;
+    border-radius: 20px;
+    box-shadow: 0 7px 10px rgba(4, 0, 0, 0.4);
+    padding: 1em;
+    
+}
+
+.futuro1 {
+color: #ffffff;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-size: 40px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.futuro2 {
+    color: black;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    
+body {
+    background-color:#f0f0f0 ;
+}
+.name {
+    font-size: 30px;
+    color : #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 250px;
+    margin-top: -230px;
+}
+
+.lista {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+.materias1 {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 300px;
+  }
+  
+  .materias2 {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 300px;
+  }
+  .materias3 {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 300px;
+  }
+  .Materias {
+    margin-top: -450px;
+    margin-right: -1100px;
+  }
+
+
+.compasfts {
+    border-radius: 50%;
+    width: 11em;
+
+}
+
+.COMPAÑEROS {
+    padding: 40px;
+    margin-left: 350px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+
+}
+
+aside {
+    margin-right: 40px;
+    margin-top: -635px;
+    float: right;
+}
+section {
+    border-radius: 20px;
+    box-shadow: 0 7px 10px rgba(4, 0, 0, 0.4);
+    background-color: #cacaca;
+    margin-right: 400px;
+}
+
+.AMIGOS {
+    padding: 30px;
+    font-size: 50px;
+    margin-left: 450px;
+    margin-top: 80px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    padding-left: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.amigofts {
+    margin-top: -10px;
+    margin-left: 390px;
+    border-radius: 50%;
+    width: 11em;
+}
+
+.amigomende {
+    border-radius: 50%;
+    width: 11em;
+}
+
+.AMIGOSGENERAL {
+    border-radius: 20px;
+    box-shadow: 0 7px 10px rgba(1, 1, 1, 0.4);
+    background-color: #cacaca;
+    margin-right: 400px;
+}
+
+.compas {
+    border-radius: 20px;
+    box-shadow: 0 7px 10px rgba(1, 1, 1, 0.4);
+    background-color: #cacaca;
+    margin-right: 400px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    padding-left: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.Tuliofts {
+    margin-left: 55px;
+    margin-top: 40px;
+    border-radius: 20%;
+    width: 11em;
+}
+
+.profesor {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 7px 10px rgba(1, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+.PROFESOR {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 55px;
+    font-size: 30px;
+}
+
+.TULIORUESJAS {
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+.ig {
+    width: 140px;
+    margin-right: 30px;
+    margin-top: -100px
+}
+.redes {
+    margin-left: 1250px;
+    margin-top: -190px;
+}
+
+.Thomee {
+    margin-left: 105px;
+    margin-top: 90px;
+}
+
+.compasfts {
+    width: 11em;
+    transition: transform 0.1s ease;
+  }
+  
+  .compasfts:hover {
+    transform: scale(1.2);
+  }
+
+  .amigofts {
+    width: 11em;
+    transition: transform 0.1s ease;
+  }
+  
+  .amigofts:hover {
+    transform: scale(1.2);
+  }
+
+  .amigomende {
+    width: 11em;
+    transition: transform 0.1s ease;
+  }
+  
+  .amigomende:hover {
+    transform: scale(1.2);
+  }
+
+  .Tuliofts {
+    transition: transform 0.1s ease;
+  }
+
+  .Tuliofts:hover {
+    transform: scale(1.5) ;
+  }
+
+  .ig {
+    transition: transform 0.1s ease;
+  }
+
+  .ig:hover {
+    transform: scale(1.3) ;
+  }
+
+  .fotothomee {
+    transition: transform 0.3s ease;
+  }
+
+  .fotothomee:hover {
+    transform: scale(1.2) ;
+  }
