@@ -1,0 +1,172 @@
+.todo {
+    border: 2px solid #ccc; /* Borde de 2px de ancho y color gris claro */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno de 20px */
+    margin: 20px; /* Margen externo de 20px */
+    background-color: #f9f9f9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center; /* Texto centrado */
+    margin-bottom: 20px; /* Margen inferior de 20px */
+}
+
+.titulo {
+    text-align: center; /* Texto centrado */
+    margin-bottom: 20px; /* Margen inferior de 20px */
+}
+
+.titulo h2 {
+    color: #333; /* Color del texto oscuro */
+}
+
+.sumas {
+    border: 2px solid #ccc; /* Borde de 2px de ancho y color gris claro */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno de 20px */
+    margin: 20px; /* Margen externo de 20px */
+    background-color: #f9f9f9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: center; /* Texto centrado */
+    margin-bottom: 20px; /* Margen inferior de 20px */
+}
+
+.sumatitulo {
+    text-align: center; /* Texto centrado */
+    margin-bottom: 20px; /* Margen inferior de 20px */
+}
+
+.sumatitulo {
+    color: #333; /* Color del texto oscuro */
+}
+
+.promedio {
+    border: 2px solid #ccc; /* Borde de 2px de ancho y color gris claro */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno de 20px */
+    margin: 20px; /* Margen externo de 20px */
+    background-color: #f9f9f9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: center; /* Texto centrado */
+    margin-bottom: 20px; /* Margen inferior de 20px */
+}
+
+.promediotitulo {
+    text-align: center; /* Texto centrado */
+    margin-bottom: 20px; /* Margen inferior de 20px */
+}
+
+.promediotitulo{
+    color: #333; /* Color del texto oscuro */
+}
+
+.maxymin {
+    border: 2px solid #ccc; /* Borde de 2px de ancho y color gris claro */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno de 20px */
+    margin: 20px; /* Margen externo de 20px */
+    background-color: #f9f9f9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: center; /* Texto centrado */
+    margin-bottom: 20px; /* Margen inferior de 20px */
+}
+
+.maxymintitulo {
+    text-align: center; /* Texto centrado */
+    margin-bottom: 20px; /* Margen inferior de 20px */
+}
+
+.maxymintitulo {
+    color: #333; /* Color del texto oscuro */
+}
+
+.eliminar {
+    border: 2px solid #ccc; /* Borde de 2px de ancho y color gris claro */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno de 20px */
+    margin: 20px; /* Margen externo de 20px */
+    background-color: #f9f9f9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center; /* Texto centrado */
+    margin-bottom: 20px; /* Margen inferior de 20px */
+}
+
+.delete {
+    text-align: center; /* Texto centrado */
+    margin-bottom: 20px; /* Margen inferior de 20px */
+}
+
+.delete {
+    color: #333; /* Color del texto oscuro */
+}
+
+.agregar {
+    border: 2px solid #ccc; /* Borde de 2px de ancho y color gris claro */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno de 20px */
+    margin: 20px; /* Margen externo de 20px */
+    background-color: #f9f9f9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: center; /* Texto centrado */
+    margin-bottom: 20px; /* Margen inferior de 20px */
+}
+
+.agregado {
+    text-align: center; /* Texto centrado */
+    margin-bottom: 20px; /* Margen inferior de 20px */
+}
+
+.agregado {
+    color: #333; /* Color del texto oscuro */
+}
+
+.mayoramenorgeneral {
+    border: 2px solid #ccc; /* Borde de 2px de ancho y color gris claro */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno de 20px */
+    margin: 20px; /* Margen externo de 20px */
+    background-color: #f9f9f9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: center; /* Texto centrado */
+    margin-bottom: 20px; /* Margen inferior de 20px */
+}
+
+.mayamen {
+    text-align: center; /* Texto centrado */
+    margin-bottom: 20px; /* Margen inferior de 20px */
+}
+
+.mayamen {
+    color: #333; /* Color del texto oscuro */
+}
+
+.recarga {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 36px;
+    
+}
+
+.recarga:hover {
+    background-color: #2c692f;
+}
+
+.recargageneral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+
+
+
