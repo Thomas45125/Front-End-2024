@@ -1,65 +1,99 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Trabajo Practico N2</title>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones con Arreglos y Validaciones</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	
-	<div class="todo">
-		<div class="titulo"><h2>NUMEROS ALEATORIOS</h2></div>
+    <h1>Operaciones con Arreglos y Validaciones</h1>
 
-		<div class="console" id="numerosaleatorios"></div>
-	<script src="JS/numerosaleatorios.js"></script></div>
+    <div class="todo">
+        <div class="titulo"><h2>NUMEROS ALEATORIOS</h2></div>
+        <div class="console" id="numerosaleatorios"></div>
+    </div>
 
+    <div class="sumas">
+        <h2 class="sumatitulo">Suma Total</h2>
+        <p id="sumatotal"></p>
+    </div>
 
-	<div class="sumas">
-		<h2 class="sumatitulo">Suma Total</h2>
-		<p id="sumatotal"></p>
-		<script src="JS/suma.js"></script>
-	</div>
+    <div class="promedio">
+        <h2 class="promediotitulo">Promedio</h2>
+        <p id="promediototal"></p>
+    </div>
 
+    <div class="maxymin">
+        <h2 class="maxymintitulo">Número Máximo y Mínimo del Array</h2>
+        <p id="maxymintotal"></p>
+    </div>
 
-	<div class="promedio">
-		<h2 class="promediotitulo">promedio</h2>
-		<p id="promediototal"></p>
-		<script src="JS/promedio.js"></script>
-	</div>
+    <div class="eliminar">
+        <h2 class="delete">Eliminando el Primer y Último Elemento del Array</h2>
+        <p id="eliminartotal"></p>
+    </div>
 
+    <div class="agregar">
+        <h2 class="agregado">Agregando un Nuevo Elemento al Final del Array</h2>
+        <p id="agregartotal"></p>
+    </div>
 
-	<div class="maxymin">
-		<h2 class="maxymintitulo">Numero Maximo y Minimo del Array</h2>
-		<p id="maxymintotal"></p>
-		<script src="JS/maxymin.js"></script>
-	</div>
+    <div class="mayoramenorgeneral">
+        <h2 class="mayamen">Ordenados de Mayor a Menor</h2>
+        <p id="mayoramenor"></p>
+    </div>
 
-	<div class="eliminar">
-		<h2 class="delete">Eliminando el 1er y ultimo elemento del Array</h2>
-		<p id="eliminartotal"></p>
-		<script src="JS/eliminar.js"></script>
-	</div>
+    <div class="recargageneral">
+        <button class="recarga" onclick="recargarPagina()">Generar Nuevos Números</button>
+    </div>
 
-	<div class="agregar">
-		<h2 class="agregado">Agregando un nuevo elemento al final del Array</h2>
-		<p id="agregartotal"></p>
-		<script src="JS/agregar.js"></script>
-	</div>
+    <div id="formulario">
+        <h2>Formulario de Alumno</h2>
+        <form id="formularioAlumno">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required><br>
 
-	<div class="mayoramenorgeneral">
-		<h2 class="mayamen">Ordenados de Mayor a menor</h2>
-		<p id="mayor a menor"></p>
-		<script src="JS/mayoramenor.js"></script>
-	</div>
-	<div class="recargageneral">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" required><br>
 
-	<button class="recarga" onclick="recargarPagina()">Generar Nuevos Numeros</button>
+            <label for="legajo">Legajo:</label>
+            <input type="text" id="legajo" required><br>
 
-    <script src="JS/recarga.js"></script> </div>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" required><br>
 
+            <label for="materia1">Materia 1:</label>
+            <input type="text" id="materia1" required>
+            <label for="nota1">Nota:</label>
+            <input type="number" id="nota1" min="0" max="10" required><br>
 
-	
+            <label for="materia2">Materia 2:</label>
+            <input type="text" id="materia2" required>
+            <label for="nota2">Nota:</label>
+            <input type="number" id="nota2" min="0" max="10" required><br>
 
+            <label for="materia3">Materia 3:</label>
+            <input type="text" id="materia3" required>
+            <label for="nota3">Nota:</label>
+            <input type="number" id="nota3" min="0" max="10" required><br>
 
+            <label for="materia4">Materia 4:</label>
+            <input type="text" id="materia4" required>
+            <label for="nota4">Nota:</label>
+            <input type="number" id="nota4" min="0" max="10" required><br>
+
+            <label for="materia5">Materia 5:</label>
+            <input type="text" id="materia5" required>
+            <label for="nota5">Nota:</label>
+            <input type="number" id="nota5" min="0" max="10" required><br>
+
+            <input type="submit" value="Calcular Promedio">
+        </form>
+        <p id="mensajeError" class="error"></p>
+        <p id="promedio" class="resultado"></p>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
