@@ -1,0 +1,214 @@
+* {
+  background-color: rgb(20, 16, 22);
+}
+
+.Tarjeta {
+  width: 500px;
+  background-color: rgb(240, 180, 89); /* Color de fondo */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 15px; /* Bordes redondeados */
+  margin-top: 40px;
+  margin-left: 450px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para efecto de profundidad */
+  text-align: center; /* Alinear texto al centro */
+  font-family: 'Arial', sans-serif; /* Fuente del texto */
+  transition: transform 0.2s; /* Efecto de transición para animaciones */
+  
+}
+
+
+.nombre{
+  border-radius: 15px; /* Bordes redondeados */
+  margin-top: 40px;
+  margin-left: 460px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para efecto de profundidad */
+  text-align: center; /* Alinear texto al centro */
+  width: 500px;
+  background-color: rgb(240, 180, 89);
+  padding: 10px;
+  font-family: 'Arial', sans-serif;
+}
+
+.data {
+  border-radius: 15px; /* Bordes redondeados */
+  margin-top: 40px;
+  margin-left: 460px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para efecto de profundidad */
+  text-align: center; /* Alinear texto al centro */
+  width: 500px;
+  font-size: 20px;
+  background-color: rgb(240, 180, 89);
+  padding: 10px;
+}
+
+.profesion{
+
+  border-radius: 15px; /* Bordes redondeados */
+  margin-top: 40px;
+  margin-left: 460px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para efecto de profundidad */
+  text-align: center; /* Alinear texto al centro */
+  width: 500px;
+  background-color: rgb(240, 180, 89);
+  padding: 10px;
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+}
+
+.profesionprop{
+  background-color:rgb(240, 180, 89);
+}
+
+.boton {
+  width: 190px;
+  background-color: rgb(190, 182, 57);
+  padding: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  margin-left: 635px;
+  border-radius: 50px;
+  transition:  0.10s ease;
+  cursor: pointer;
+}
+
+
+.boton:hover {
+  background-color: rgb(170, 162, 37);
+  transform: scale(1.1);
+}
+
+.contador {
+  width: 970px;
+  background-color: rgb(240, 180, 89);
+  margin-left:220px;
+  margin-top: 50px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para efecto de profundidad */
+  text-align: center;
+  border-radius: 50px;
+}
+
+.P {
+  border-radius: 50px;
+  width: 40px;
+  padding: 30px;
+  margin-left: 675px;
+  font-size: 30px;
+  background-color: rgb(240, 180, 89);
+  font-size: 50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para efecto de profundidad */
+  text-align: center;
+}
+
+.cuadrado {
+  border-radius: 7px;
+  width: 40px;
+  padding: 30px;
+  font-size: 30px;
+  background-color: rgb(240, 180, 89);
+  font-size: 50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para efecto de profundidad */
+  text-align: center;
+}
+
+.botondecolor {
+  width: 190px;
+  background-color: rgb(190, 182, 57);
+  padding: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  margin-left: 635px;
+  margin-top: -30px;
+  border-radius: 50px;
+  transition:  0.10s ease;
+  cursor: pointer;
+}
+
+
+.botondecolor:hover {
+  background-color: rgb(170, 162, 37);
+  transform: scale(1.1);
+}
+
+.botondeemoji {
+  width: 190px;
+  background-color: rgb(190, 182, 57);
+  padding: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  margin-left: 635px;
+  margin-top: 50px;
+  border-radius: 50px;
+  transition:  0.10s ease;
+  cursor: pointer;
+}
+
+
+.botondeemoji:hover {
+  background-color: rgb(170, 162, 37);
+  transform: scale(1.1);
+}
+
+
+.emojis{
+
+  margin-left: -70px;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 600px;
+  outline: none;
+  background-color: #cee75e;
+}
+
+/* Estilo para input cuando está enfocado */
+input:focus {
+  border-color: #007bff; /* Cambia el color del borde al estar enfocado */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Agrega una sombra alrededor del input */
+}
+
+/* Estilo para input cuando está deshabilitado */
+input:disabled {
+  background-color: #f5f5f5; /* Cambia el color de fondo cuando está deshabilitado */
+  cursor: not-allowed; /* Cambia el cursor a "no permitido" */
+} 
+
+.resultado {
+    border-radius: 7px;
+    width: 400px;
+    padding: 30px;
+    margin-left: 500px;
+    font-size: 30px;
+    background-color: rgb(240, 180, 89);
+    font-size: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para efecto de profundidad */
+    text-align: center;
+  }
+
+.botondeadivinar {
+  width: 190px;
+  background-color: rgb(190, 182, 57);
+  padding: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  margin-top: 50px;
+  border-radius: 50px;
+  transition:  0.10s ease;
+  cursor: pointer;
+}
+
+.intenta {
+  width: 970px;
+  font-size: 20px;
+  background-color: rgb(240, 180, 89);
+  margin-left:220px;
+  margin-top: 50px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 50px;
+}
