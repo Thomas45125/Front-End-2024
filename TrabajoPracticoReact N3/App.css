@@ -4,15 +4,15 @@
 
 .Tarjeta {
   width: 500px;
-  background-color: rgb(240, 180, 89); /* Color de fondo */
-  padding: 20px; /* Espaciado interno */
-  border-radius: 15px; /* Bordes redondeados */
+  background-color: rgb(240, 180, 89); 
+  padding: 20px;
+  border-radius: 15px;
   margin-top: 40px;
   margin-left: 450px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para efecto de profundidad */
-  text-align: center; /* Alinear texto al centro */
-  font-family: 'Arial', sans-serif; /* Fuente del texto */
-  transition: transform 0.2s; /* Efecto de transición para animaciones */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  text-align: center; 
+  font-family: 'Arial', sans-serif; 
+  transition: transform 0.2s; 
   
 }
 
